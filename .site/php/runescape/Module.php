@@ -1,7 +1,8 @@
 <?php
 namespace runescape;
 use common\milk\inject\AbstractModule;
-use common\base\BaseSettings;
+use common\base\Settings;
+use common\base\PageHandler;
 
 /**
  * Class Module
@@ -9,6 +10,7 @@ use common\base\BaseSettings;
  */
 class Module extends AbstractModule {
 	public function configure() {
-		self::bind(BaseSettings::class)->asSingletonTo(Fru1tmeSettings::class);
+		self::bind(Settings::class)->asSingletonTo(RsSettings::class);
+		self::bind(PageHandler::class)->asSingletonTo(RsPageHandler::class);
 	}
 }

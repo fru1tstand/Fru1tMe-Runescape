@@ -1,7 +1,7 @@
 <?php
 namespace runescape;
-require_once $_SERVER["DOCUMENT_ROOT"] . "/.site/php/common/base/BaseAutoload.php";
-use common\base\BaseAutoload;
+require_once $_SERVER["DOCUMENT_ROOT"] . "/.site/php/common/base/Autoload.php";
+use common\base\Autoload;
 use common\milk\inject\AbstractModule;
 use common\milk\Milk;
 
@@ -9,7 +9,7 @@ use common\milk\Milk;
  * This file serves as an init file. It provides missing dependencies and sets up sessions,
  * constants, etc before any other php script runs. It is included in every PHP file.
  */
-class Autoload extends BaseAutoload {
+class RsAutoload extends Autoload {
 	/**
 	 * Returns the injector associated with the website
 	 * @return AbstractModule[]
@@ -20,4 +20,4 @@ class Autoload extends BaseAutoload {
 		);
 	}
 }
-Autoload::init(new Autoload());
+Autoload::init(new RsAutoload());
