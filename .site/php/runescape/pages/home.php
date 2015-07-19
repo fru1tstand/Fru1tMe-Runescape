@@ -19,60 +19,30 @@ $headerImages = array(
 		<h2>A bunch of random tools for RS</h2>
 	</div>
 
-	<a class="button header-button" href="#home-content">Explore</a>
+	<a class="button header-button" href="#home-login">Explore</a>
 </div>
 
+<div class="home-login" id="home-login">
+	<div class="aligner"></div>
+	<div class="left-half">
+		<div class="login-text">
+			You are logging into the Fru1tMe website -- NOT RUNESCAPE. Please do not type in your
+			RuneScape credentials. I don't want them. Jagex probably prefers you don't type them
+			here. In fact, YOU probably don't want to type them here anyway.
+		</div>
+	</div>
+	<div class="divider"><div></div></div>
+	<div class="right-half">
+		<form action="/" method="post">
+			<div class="form-text">Username</div>
+			<div class="form-input"><input type="text" name="fm-usrn" /></div>
+			<div class="form-spacer"></div>
+			<div class="form-text">Password</div>
+			<div class="form-input"><input type="password" name="fm-pswd" /></div>
+			<div class="form-spacer"></div>
+			<div class="form-spacer"></div>
 
-<div class="home-content" id="home-content">
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+			<div class="form-input"><button type="submit">Login</button></div>
+		</form>
+	</div>
 </div>
