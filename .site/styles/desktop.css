@@ -19,6 +19,7 @@ body {
 
 .button {
   cursor: pointer;
+  text-decoration: none;
   -webkit-transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1);
   -moz-transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1);
   transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1); }
@@ -49,7 +50,8 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 22px;
     font-weight: bold;
-    padding: 20px 0; }
+    padding: 20px 0;
+    color: inherit; }
     .home-header .header-button:hover {
       background-color: rgba(80, 80, 80, 0.6); }
 

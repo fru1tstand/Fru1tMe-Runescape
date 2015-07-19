@@ -19,11 +19,11 @@ $headerImages = array(
 		<h2>A bunch of random tools for RS</h2>
 	</div>
 
-	<div class="button header-button">Explore</div>
+	<a class="button header-button" href="#home-content">Explore</a>
 </div>
 
 
-<div class="home-content">
+<div class="home-content" id="home-content">
 	<br />
 	<br />
 	<br />
