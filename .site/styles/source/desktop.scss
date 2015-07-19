@@ -1,19 +1,25 @@
-$default-background-color: #111;
+// This file contains definitions for desktop css rules
+@import 'shared';
 
+// Shh...
 * {
 	padding: 0;
 	margin: 0;
 }
-
 html {
 	height: 100%;
 }
-
 body {
 	min-height: 100%;
 	background-color: $default-background-color;
 	font-family: Gudea, serif;
 	color: #EEE;
+}
+
+.button {
+	cursor: pointer;
+	@extend .noselect;
+	@include transition(background-color $animation-time-responsive $animation-style);
 }
 
 @import 'desktop/home';

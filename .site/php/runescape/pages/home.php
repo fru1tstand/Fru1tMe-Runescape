@@ -19,9 +19,9 @@ $headerImages = array(
 		<h2>A bunch of random tools for RS</h2>
 	</div>
 
-	<div class="header-button">Explore</div>
+	<div class="button header-button">Explore</div>
 </div>
-<div class="home-header-button"></div>
+
 
 <div class="home-content">
 	<br />

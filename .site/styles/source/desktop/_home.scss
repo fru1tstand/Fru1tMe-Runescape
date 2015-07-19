@@ -4,7 +4,7 @@
 	height: 800px;
 	background: #000 no-repeat fixed top center;
 	background-size: cover;
-	z-index: -1;
+	z-index: 1;
 	overflow: hidden;
 
 	.title {
@@ -18,19 +18,26 @@
 
 	.header-button {
 		position: fixed;
+		top: 55%;
 		left: 50%;
-		width: 300px;
-		top: 600px;
 		margin-left: -150px;
-		padding: 20px 0;
+		width: 300px;
+		text-align: center;
 		border-radius: 5px;
 		background-color: rgba(0, 0, 0, 0.6);
-		text-align: center;
 		font-size: 22px;
 		font-weight: bold;
+		padding: 20px 0;
+
+		&:hover {
+			background-color: rgba(80, 80, 80, 0.6);
+		}
 	}
 }
+
 .home-content {
+	position: relative;
+	z-index: 2;
 	background-color: $default-background-color;
 	box-shadow: 0 0 10px 4px #000;
 }

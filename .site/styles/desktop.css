@@ -1,3 +1,9 @@
+.noselect, .button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -11,13 +17,19 @@ body {
   font-family: Gudea, serif;
   color: #EEE; }
 
+.button {
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1);
+  -moz-transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1);
+  transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1); }
+
 .home-header {
   position: relative;
   width: 100%;
   height: 800px;
   background: #000 no-repeat fixed top center;
   background-size: cover;
-  z-index: -1;
+  z-index: 1;
   overflow: hidden; }
   .home-header .title {
     position: fixed;
@@ -28,18 +40,22 @@ body {
     color: #CCC; }
   .home-header .header-button {
     position: fixed;
+    top: 55%;
     left: 50%;
-    width: 300px;
-    top: 600px;
     margin-left: -150px;
-    padding: 20px 0;
+    width: 300px;
+    text-align: center;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
     font-size: 22px;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 20px 0; }
+    .home-header .header-button:hover {
+      background-color: rgba(80, 80, 80, 0.6); }
 
 .home-content {
+  position: relative;
+  z-index: 2;
   background-color: #111;
   box-shadow: 0 0 10px 4px #000; }
 

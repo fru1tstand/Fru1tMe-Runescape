@@ -1,0 +1,20 @@
+// This file contains all globally shared variables, mixins, and extenable classes for FM:RS
+
+$default-background-color: #111;
+
+$animation-style: cubic-bezier(0.3, 0.3, 0.02, 1);
+$animation-time-relax: 0.6s;
+$animation-time-responsive: 0.15s;
+
+@mixin transition($params...) {
+	-webkit-transition: $params;
+	-moz-transition: $params;
+	transition: $params;
+}
+
+.noselect {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
