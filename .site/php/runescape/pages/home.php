@@ -31,23 +31,26 @@ $randomImage = array_rand($headerImages);
 	<div class="feature-list-push"></div>
 	<div class="feature-list">
 		<div class="feature-group">Farming</div>
-		<div class="feature">
+		<a class="feature" href="#home-login">
 			<div class="title">Yield Tracker</div>
 			<div class="description">
 				Primarily stores yields for your farming runs. Provides key analytics and
 				insightful statistics with neat infographics. Includes fully customizable dynamic
 				image maker for forum signatures or anything, really.
 			</div>
-		</div>
+		</a>
 	</div>
 	<div class="thats-it">
 		That's it so far! Don't see something you really really wanted? Let me know by emailing
 		me at
-		<span onload="document.write('rs-requests');"><noscript>rs-requests</noscript></span>
-		<span class="at"></span>
-		<span onload="document.write('kodleeshare');"><noscript>kodleeshare</noscript></span>
-		<span class="dot"></span>
-		<span onload="document.write('net');"><noscript>net</noscript></span>
+		<script>
+			document.write('rs-requests');</script><noscript>
+			rs-requests</noscript><span class="at"></span><script>
+			document.write('kodleeshare')</script><noscript>
+			kodleeshare</noscript><span class="dot"></span><script>
+			document.write('net')
+		</script><noscript>
+			net</noscript>
 	</div>
 </div>
 

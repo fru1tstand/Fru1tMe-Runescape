@@ -95,10 +95,23 @@ input {
   .home-content .feature {
     width: 100%;
     border: 1px solid #333;
-    padding: 5px 10px; }
+    padding: 20px;
+    cursor: pointer;
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1);
+    -moz-transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1);
+    transition: background-color 0.15s cubic-bezier(0.3, 0.3, 0.02, 1); }
+    .home-content .feature:hover {
+      background-color: rgba(255, 255, 255, 0.1); }
     .home-content .feature .title {
       font-size: 19px;
-      padding-bottom: 5px; }
+      padding-bottom: 10px; }
+  .home-content .thats-it {
+    padding-top: 100px;
+    color: #333; }
 
 .home-login {
   position: relative;
