@@ -13,7 +13,7 @@ html {
 body {
 	min-height: 100%;
 	background-color: $default-background-color;
-	font-family: Gudea, serif;
+	font-family: $default-font-family;
 	color: #DDD;
 }
 
@@ -22,8 +22,12 @@ button,
 input {
 	cursor: pointer;
 	text-decoration: none;
+	text-align: center;
+	font-family: $default-font-family;
 	@extend .noselect;
 	@include transition(background-color $animation-time-responsive $animation-style);
 }
-
+.hidden {
+	display: none !important;
+}
 @import 'desktop/home';
