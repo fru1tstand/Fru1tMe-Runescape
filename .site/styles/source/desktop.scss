@@ -38,4 +38,24 @@ input {
 .dot::before {
 	content: '.';
 }
+
+// Footer
+footer {
+	padding: 5px 10px;
+	font-size: 12px;
+
+	a {
+		&:link,
+		&:visited {
+			color: #DDF;
+			text-decoration: none;
+		}
+
+		&:hover,
+		&:active {
+			color: #DFD;
+			text-decoration: underline;
+		}
+	}
+}
 @import 'desktop/home';

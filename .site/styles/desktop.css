@@ -40,6 +40,16 @@ input {
 .dot::before {
   content: '.'; }
 
+footer {
+  padding: 5px 10px;
+  font-size: 12px; }
+  footer a:link, footer a:visited {
+    color: #DDF;
+    text-decoration: none; }
+  footer a:hover, footer a:active {
+    color: #DFD;
+    text-decoration: underline; }
+
 .home-header {
   position: relative;
   width: 100%;
