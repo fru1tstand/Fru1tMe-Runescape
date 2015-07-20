@@ -34,6 +34,12 @@ input {
 .hidden {
   display: none !important; }
 
+.at::before {
+  content: '@'; }
+
+.dot::before {
+  content: '.'; }
+
 .home-header {
   position: relative;
   width: 100%;
@@ -74,7 +80,25 @@ input {
   z-index: 2;
   background-color: #111;
   min-height: 100vh;
-  box-shadow: 0 0 10px 4px #000; }
+  box-shadow: 0 0 10px 4px #000;
+  text-align: center; }
+  .home-content .feature-list-push {
+    height: 30vh; }
+  .home-content .feature-list {
+    text-align: left;
+    width: 550px;
+    display: inline-block; }
+  .home-content .feature-group {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0; }
+  .home-content .feature {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 5px 10px; }
+    .home-content .feature .title {
+      font-size: 19px;
+      padding-bottom: 5px; }
 
 .home-login {
   position: relative;

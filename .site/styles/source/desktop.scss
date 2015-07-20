@@ -30,4 +30,12 @@ input {
 .hidden {
 	display: none !important;
 }
+
+// Email stuffs
+.at::before {
+	content: '@';
+}
+.dot::before {
+	content: '.';
+}
 @import 'desktop/home';

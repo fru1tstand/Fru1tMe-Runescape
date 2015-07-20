@@ -47,6 +47,31 @@
 	background-color: $default-background-color;
 	min-height: 100vh;
 	box-shadow: 0 0 10px 4px #000;
+	text-align: center;
+
+	.feature-list-push {
+		height: 30vh;
+	}
+	.feature-list {
+		text-align: left;
+		width: 550px;
+		display: inline-block;
+	}
+	.feature-group {
+		font-size: 22px;
+		font-weight: bold;
+		padding: 10px 0;
+	}
+
+	.feature {
+		width: 100%;
+		border: 1px solid #333;
+		padding: 5px 10px;
+		.title {
+			font-size: 19px;
+			padding-bottom: 5px;
+		}
+	}
 }
 
 .home-login {

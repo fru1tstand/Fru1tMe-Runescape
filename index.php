@@ -8,6 +8,17 @@ use common\base\PageHandler;
 	<meta charset="utf-8">
 	<title>title</title>
 
+	<!--
+		Hi! Nice to see you here ^^
+		Check out how this site was made here: https://github.com/fru1tstand/Fru1tMe-Runescape
+
+		Want to know more about me? See my resume at: http://fru1t.me/about/resume
+		I also have a LinkedIn and stuff.
+
+		Hope you find what you're looking for :)
+		Have a good day!
+	-->
+
 	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Gudea" />
 	<link type="text/css" rel="stylesheet" href="/.site/styles/desktop.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
